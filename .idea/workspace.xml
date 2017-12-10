@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73809eb2-af4d-4ad4-ae66-38fc7d504bc3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysim/MemoryReference.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysim/ReferenceString.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/LRUPageReplaceTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/MemoryReferenceTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/MemoryTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/OPTPageReplaceTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/PhysicalFrameTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/memorysimtests/ReferenceStringTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Memory.iml" afterPath="$PROJECT_DIR$/Memory.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memory/memorysim/FIFOPageReplace.class" afterPath="$PROJECT_DIR$/out/production/Memory/memorysim/FIFOPageReplace.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memory/memorysim/LRUPageReplace.class" afterPath="$PROJECT_DIR$/out/production/Memory/memorysim/LRUPageReplace.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memory/memorysim/MemoryAlgorithm.class" afterPath="$PROJECT_DIR$/out/production/Memory/memorysim/MemoryAlgorithm.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memory/memorysim/OPTPageReplace.class" afterPath="$PROJECT_DIR$/out/production/Memory/memorysim/OPTPageReplace.class" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java" afterPath="$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" afterPath="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" />
       <change beforePath="$PROJECT_DIR$/src/memorysim/PhysicalFrame.java" afterPath="$PROJECT_DIR$/src/memorysim/PhysicalFrame.java" />
+      <change beforePath="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" afterPath="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" />
+      <change beforePath="$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java" afterPath="$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,61 +22,11 @@
             <file leaf-file-name="PhysicalFrames.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrames.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="108">
-                    <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+                  <state relative-caret-position="252">
+                    <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
                     <folding>
                       <element signature="e#236#237#0" expanded="true" />
                       <element signature="e#294#295#0" expanded="true" />
-                      <element signature="e#342#343#0" expanded="true" />
-                      <element signature="e#393#394#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="6">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="PhysicalFrameTest.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/memorysimtests/PhysicalFrameTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="18">
-                    <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#509#510#0" expanded="true" />
-                      <element signature="e#599#600#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="PhysicalFramesTest.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="180">
-                    <caret line="10" column="9" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="MemoryReferenceTest.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryReferenceTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="396">
-                    <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#468#469#0" expanded="true" />
-                      <element signature="e#528#529#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -110,15 +43,15 @@
             <file leaf-file-name="PhysicalFrame.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrame.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="324">
-                    <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <state relative-caret-position="720">
+                    <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
                     <folding>
-                      <element signature="e#154#155#0" expanded="true" />
-                      <element signature="e#208#209#0" expanded="true" />
-                      <element signature="e#259#260#0" expanded="true" />
-                      <element signature="e#297#298#0" expanded="true" />
-                      <element signature="e#367#368#0" expanded="true" />
-                      <element signature="e#421#422#0" expanded="true" />
+                      <element signature="e#218#219#0" expanded="true" />
+                      <element signature="e#272#273#0" expanded="true" />
+                      <element signature="e#505#506#0" expanded="true" />
+                      <element signature="e#559#560#0" expanded="true" />
+                      <element signature="e#882#883#0" expanded="true" />
+                      <element signature="e#934#935#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -134,14 +67,14 @@
       <file leaf-file-name="Memory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/memorysim/Memory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemoryAlgorithm.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MemoryAlgorithm.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -151,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemoryReference.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemoryReference.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryReference.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -244,13 +177,13 @@
         <option value="$PROJECT_DIR$/src/memorysimtests/MemoryTest.java" />
         <option value="$PROJECT_DIR$/src/memorysim/PhysicalFramesTest.java" />
         <option value="$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java" />
-        <option value="$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java" />
         <option value="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/memorysimtests/MemoryReferenceTest.java" />
-        <option value="$PROJECT_DIR$/src/memorysim/PhysicalFrame.java" />
         <option value="$PROJECT_DIR$/src/memorysim/MemoryReference.java" />
-        <option value="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" />
         <option value="$PROJECT_DIR$/src/memorysimtests/PhysicalFrameTest.java" />
+        <option value="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" />
+        <option value="$PROJECT_DIR$/src/memorysim/PhysicalFrame.java" />
+        <option value="$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java" />
       </list>
     </option>
   </component>
@@ -338,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PhysicalFrameTest.testPhysicalFrameSet">
+  <component name="RunManager" selected="JUnit.PhysicalFramesTest.testPhysicalFrameSet">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -359,56 +292,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="FIFOPageReplaceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="memorysimtests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Memory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="memorysimtests" />
-      <option name="MAIN_CLASS_NAME" value="memorysimtests.FIFOPageReplaceTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MemoryReferenceTest.testMemoryReferenceName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="memorysimtests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Memory" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="memorysimtests" />
-      <option name="MAIN_CLASS_NAME" value="memorysimtests.MemoryReferenceTest" />
-      <option name="METHOD_NAME" value="testMemoryReferenceName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="PhysicalFrameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -485,6 +368,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="PhysicalFramesTest.testPhysicalFrameGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="memorysimtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Memory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="memorysimtests" />
+      <option name="MAIN_CLASS_NAME" value="memorysimtests.PhysicalFramesTest" />
+      <option name="METHOD_NAME" value="testPhysicalFrameGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PhysicalFramesTest.testPhysicalFrameSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="memorysimtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Memory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="memorysimtests" />
+      <option name="MAIN_CLASS_NAME" value="memorysimtests.PhysicalFramesTest" />
+      <option name="METHOD_NAME" value="testPhysicalFrameSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -546,19 +479,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest.test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MemoryReferenceTest.testMemoryReferenceName" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrame" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrameSet" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrame" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrameSet" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PhysicalFramesTest.testPhysicalFrameGet" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PhysicalFramesTest.testPhysicalFrameSet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrameSet" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrame" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MemoryReferenceTest.testMemoryReferenceName" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PhysicalFramesTest.testPhysicalFrameSet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PhysicalFramesTest.testPhysicalFrameGet" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrameSet" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PhysicalFrameTest.testPhysicalFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -579,26 +512,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FIFOPageReplaceTest_test - 2017.12.10 at 15h 21m 27s.xml">
-      <configuration name="FIFOPageReplaceTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoryReferenceTest_testMemoryReferenceName - 2017.12.10 at 16h 25m 13s.xml">
-      <configuration name="MemoryReferenceTest.testMemoryReferenceName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PhysicalFrameTest - 2017.12.10 at 16h 30m 47s.xml">
       <configuration name="PhysicalFrameTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PhysicalFrameTest - 2017.12.10 at 16h 35m 09s.xml">
       <configuration name="PhysicalFrameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PhysicalFrameTest_testPhysicalFrame - 2017.12.10 at 16h 28m 24s.xml">
-      <configuration name="PhysicalFrameTest.testPhysicalFrame" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PhysicalFrameTest_testPhysicalFrame - 2017.12.10 at 16h 30m 03s.xml">
       <configuration name="PhysicalFrameTest.testPhysicalFrame" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PhysicalFrameTest_testPhysicalFrameSet - 2017.12.10 at 16h 36m 01s.xml">
       <configuration name="PhysicalFrameTest.testPhysicalFrameSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 54m 50s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 55m 09s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 56m 16s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 57m 19s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 58m 19s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameSet - 2017.12.10 at 17h 11m 33s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameSet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -692,12 +634,12 @@
         <state relative-caret-position="72">
           <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -709,8 +651,6 @@
           <folding>
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,22 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysim/Memory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/memorysim/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -886,40 +810,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryReferenceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        <state relative-caret-position="252">
+          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysim/Memory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,15 +859,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrames.java">
+    <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryReferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -960,6 +890,14 @@
             <element signature="e#509#510#0" expanded="true" />
             <element signature="e#599#600#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

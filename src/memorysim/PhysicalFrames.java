@@ -12,11 +12,13 @@ public class PhysicalFrames {
         this.physicalFrameList = physicalFrameList;
     }
 
-    public PhysicalFrame getFrame(int index) {
+    public PhysicalFrame getFrame(int index) throws Exception {
+        if (index >= MAX_SIZE) throw new Exception("Index >= MAX_SIZE");
         return physicalFrameList.get(index);
     }
 
-    public void setFrame(int index, MemoryReference memoryReference) {
+    public void setFrame(int index, MemoryReference memoryReference) throws Exception {
+        if (index >= MAX_SIZE) throw new Exception("Index >= MAX_SIZE");
         physicalFrameList.get(index).setMemoryReference(memoryReference);
 
     }
