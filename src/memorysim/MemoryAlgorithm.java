@@ -4,11 +4,6 @@ import java.util.List;
 
 public abstract class MemoryAlgorithm {
     public boolean pageFaults;
-    List<MemoryReference> referenceStrings;
-    List<String> victimFrames;
-
+    public List<String> victimFrames;
 }
 
-class MemoryReference {
-    String referenceString;
-}
