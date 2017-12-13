@@ -3,7 +3,7 @@ package memorysim;
 import java.util.List;
 
 public abstract class MemoryAlgorithm {
-    public boolean pageFaults;
+    public List<Boolean> pageFaults;
     public List<String> victimFrames;
 }
 

@@ -1,8 +1,5 @@
 package memorysimtests;
 import org.junit.*;
-import static org.junit.Assert.*;
-import static org.junit.Test.*;
-
 public class FIFOPageReplaceTest {
 
     @Before

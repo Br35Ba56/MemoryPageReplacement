@@ -4,12 +4,18 @@ import java.util.Objects;
 
 public class MemoryReference {
     private String name;
+    private boolean isLoaded;
+
     public MemoryReference(String name) {
         this.name = name;
     }
 
     public String getName() {
         return name;
+    }
+
+    public boolean isLoaded() {
+        return isLoaded;
     }
 
     @Override
@@ -23,5 +29,10 @@ public class MemoryReference {
     @Override
     public int hashCode() {
         return Objects.hash(name);
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }

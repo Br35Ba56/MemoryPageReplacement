@@ -2,6 +2,7 @@ package memorysim;
 
 public class Main {
     public static void main(String... args) {
-        System.out.println("Working");
+        FIFOPageReplace fifoPageReplace = new FIFOPageReplace();
+        fifoPageReplace.execute();
     }
 }

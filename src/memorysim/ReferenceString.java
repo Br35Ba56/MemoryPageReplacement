@@ -1,6 +1,7 @@
 package memorysim;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ReferenceString {
@@ -9,14 +10,14 @@ public class ReferenceString {
     private List<MemoryReference> referenceList;
 
     public ReferenceString() {
+        referenceList = new ArrayList<>();
         for (int i = 0; i < MAX_REFERENCE_LIST_SIZE; i++) {
             int frameNumber = (int) (Math.random() * (MAX + 1));
-            referenceList = new ArrayList<>();
             referenceList.add(new MemoryReference(String.valueOf(frameNumber)));
         }
     }
 
     public List<MemoryReference> getReferenceList(){
-        return referenceList;
+        return Collections.unmodifiableList(referenceList);
     }
 }
