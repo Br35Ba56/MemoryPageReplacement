@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73809eb2-af4d-4ad4-ae66-38fc7d504bc3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java" afterPath="$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/Main.java" afterPath="$PROJECT_DIR$/src/memorysim/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/Memory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" afterPath="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/MemoryReference.java" afterPath="$PROJECT_DIR$/src/memorysim/MemoryReference.java" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" afterPath="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" />
-      <change beforePath="$PROJECT_DIR$/src/memorysim/ReferenceString.java" afterPath="$PROJECT_DIR$/src/memorysim/ReferenceString.java" />
-      <change beforePath="$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java" afterPath="$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java" />
-    </list>
+    <list default="true" id="73809eb2-af4d-4ad4-ae66-38fc7d504bc3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -220,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="5">
     <option name="x" value="498" />
     <option name="y" value="24" />
     <option name="width" value="1412" />
@@ -565,7 +555,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="24" width="1412" height="1056" extended-state="4" />
+    <frame x="498" y="24" width="1412" height="1056" extended-state="5" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,7 +566,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3094737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
