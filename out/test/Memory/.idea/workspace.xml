@@ -11,7 +11,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Memory.iml" afterPath="$PROJECT_DIR$/Memory.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java" afterPath="$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/memorysim/Main.java" afterPath="$PROJECT_DIR$/src/memorysim/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" afterPath="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/memorysim/ReferenceString.java" afterPath="$PROJECT_DIR$/src/memorysim/ReferenceString.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java" afterPath="$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java" />
     </list>
@@ -28,43 +27,76 @@
       <FILTER>memorysimtests.*</FILTER>
     </SUITE>
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="FIFOPageReplace.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="669">
-                    <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-                    <folding>
-                      <element signature="e#1462#1463#0" expanded="true" />
-                      <element signature="e#1528#1529#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MemoryAlgorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="75">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemoryReference.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhysicalFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhysicalFrames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LRUPageReplace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/memorysim/LRUPageReplace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +118,20 @@
       <file leaf-file-name="FIFOPageReplaceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="315">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FIFOPageReplace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -96,7 +140,7 @@
       <file leaf-file-name="OPTPageReplaceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/memorysimtests/OPTPageReplaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="195">
               <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,10 +189,10 @@
         <option value="$PROJECT_DIR$/src/memorysim/PhysicalFrame.java" />
         <option value="$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java" />
         <option value="$PROJECT_DIR$/src/memorysim/PhysicalFrames.java" />
+        <option value="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/memorysim/MemoryReference.java" />
         <option value="$PROJECT_DIR$/src/memorysim/Main.java" />
         <option value="$PROJECT_DIR$/src/memorysim/ReferenceString.java" />
-        <option value="$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java" />
         <option value="$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java" />
       </list>
@@ -240,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FIFOPageReplaceTest.fifoPageReplaceTest">
+  <component name="RunManager" selected="JUnit.FIFOPageReplaceTest.test">
     <configuration name="FIFOPageReplaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -253,11 +297,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="memorysimtests" />
       <option name="MAIN_CLASS_NAME" value="memorysimtests.FIFOPageReplaceTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -266,7 +310,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FIFOPageReplaceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="memorysimtests.*" />
@@ -278,11 +322,11 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="memorysimtests" />
       <option name="MAIN_CLASS_NAME" value="memorysimtests.FIFOPageReplaceTest" />
-      <option name="METHOD_NAME" value="fifoPageReplaceTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -309,6 +353,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Memory" />
       <envs />
+    </configuration>
+    <configuration name="PhysicalFramesTest.testPhysicalFrameSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="memorysimtests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Memory" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="memorysimtests" />
+      <option name="MAIN_CLASS_NAME" value="memorysimtests.PhysicalFramesTest" />
+      <option name="METHOD_NAME" value="testPhysicalFrameSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="ReferenceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -410,18 +479,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReferenceString" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest.fifoPageReplaceTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PhysicalFramesTest.testPhysicalFrameSet" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ReferenceString" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest.fifoPageReplaceTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest.test" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.FIFOPageReplaceTest" />
         <item index="2" class="java.lang.String" itemvalue="Application.Main" />
         <item index="3" class="java.lang.String" itemvalue="Application.ReferenceString" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PhysicalFramesTest.testPhysicalFrameSet" />
       </list>
     </recent_temporary>
   </component>
@@ -442,40 +513,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FIFOPageReplaceTest - 2017.12.15 at 13h 59m 17s.xml">
-      <configuration name="FIFOPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFrameTest - 2017.12.10 at 16h 30m 47s.xml">
+      <configuration name="PhysicalFrameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest - 2017.12.15 at 14h 06m 55s.xml">
-      <configuration name="FIFOPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFrameTest - 2017.12.10 at 16h 35m 09s.xml">
+      <configuration name="PhysicalFrameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest - 2017.12.15 at 14h 07m 18s.xml">
-      <configuration name="FIFOPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFrameTest_testPhysicalFrame - 2017.12.10 at 16h 30m 03s.xml">
+      <configuration name="PhysicalFrameTest.testPhysicalFrame" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest_fifoPageReplaceTest - 2017.12.15 at 14h 00m 55s.xml">
-      <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFrameTest_testPhysicalFrameSet - 2017.12.10 at 16h 36m 01s.xml">
+      <configuration name="PhysicalFrameTest.testPhysicalFrameSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest_fifoPageReplaceTest - 2017.12.15 at 14h 07m 49s.xml">
-      <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 54m 50s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest_fifoPageReplaceTest - 2017.12.15 at 14h 14m 19s.xml">
-      <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 55m 09s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest_fifoPageReplaceTest - 2017.12.15 at 14h 16m 06s.xml">
-      <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 56m 16s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest_fifoPageReplaceTest - 2017.12.15 at 14h 16m 35s.xml">
-      <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 57m 19s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest_fifoPageReplaceTest - 2017.12.15 at 14h 17m 10s.xml">
-      <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameGet - 2017.12.10 at 16h 58m 19s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FIFOPageReplaceTest_fifoPageReplaceTest - 2017.12.15 at 14h 18m 27s.xml">
-      <configuration name="FIFOPageReplaceTest.fifoPageReplaceTest" configurationId="JUnit" />
+    <history-entry file="PhysicalFramesTest_testPhysicalFrameSet - 2017.12.10 at 17h 11m 33s.xml">
+      <configuration name="PhysicalFramesTest.testPhysicalFrameSet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -483,14 +553,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30836454" sideWeight="0.50338984" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29058823" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29058823" sideWeight="0.49661016" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29058823" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.039583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21597221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find using jQA DB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -539,7 +609,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -549,12 +619,12 @@
         <state relative-caret-position="120">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#218#219#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -564,10 +634,10 @@
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#236#237#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,13 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,12 +709,12 @@
         <state relative-caret-position="120">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#218#219#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,10 +724,10 @@
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#236#237#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -719,13 +783,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +827,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,13 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,12 +847,12 @@
         <state relative-caret-position="72">
           <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding>
-            <element signature="e#218#219#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -808,10 +862,10 @@
         <state relative-caret-position="72">
           <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding>
-            <element signature="e#236#237#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -890,6 +944,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysim/LRUPageReplace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/memorysimtests/PhysicalFramesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -904,16 +973,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/memorysim/Memory.java" />
     <entry file="file://$PROJECT_DIR$/src/memorysim/PhysicalFrames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#236#237#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,12 +1000,30 @@
         <state relative-caret-position="120">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#218#219#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memorysimtests/OPTPageReplaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -949,58 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysim/LRUPageReplace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysim/MemoryAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysimtests/OPTPageReplaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysimtests/MemoryReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/memorysim/ReferenceString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1013,21 +1056,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="300">
+          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memorysim/FIFOPageReplace.java">
+    <entry file="file://$PROJECT_DIR$/src/memorysimtests/FIFOPageReplaceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="315">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

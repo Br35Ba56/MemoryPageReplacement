@@ -9,6 +9,13 @@ public class ReferenceString {
     private static final int MAX_REFERENCE_LIST_SIZE = 10;
     private List<MemoryReference> referenceList;
 
+    public ReferenceString(String... referenceArray) {
+        referenceList = new ArrayList<>();
+        for (String referenceName : referenceArray ) {
+            referenceList.add(new MemoryReference(referenceName));
+        }
+    }
+
     public ReferenceString() {
         referenceList = new ArrayList<>();
         for (int i = 0; i < MAX_REFERENCE_LIST_SIZE; i++) {
