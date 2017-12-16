@@ -44,7 +44,8 @@ public class FIFOPageReplace extends MemoryAlgorithm {
         return physicalFrameList.contains(memoryReference);
     }
 
-    private void getMemoryReference(MemoryReference memoryReference) {
+    @Override
+    public void getMemoryReference(MemoryReference memoryReference) {
         if (!physicalFrameList.contains(memoryReference)) {
             pageFaults.add(true);
             if (physicalFrameList.size() < 4) {

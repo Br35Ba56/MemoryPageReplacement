@@ -5,6 +5,8 @@ import java.util.Objects;
 public class MemoryReference {
     private String name;
     private boolean isLoaded;
+    private int indexUsed;
+    private boolean isUsed = false;
 
     public MemoryReference(String name) {
         this.name = name;
@@ -34,5 +36,21 @@ public class MemoryReference {
     @Override
     public String toString() {
         return name;
+    }
+
+    public int getIndexUsed() {
+        return indexUsed;
+    }
+
+    public void setIndexUsed(int indexUsed) {
+        this.indexUsed = indexUsed;
+    }
+
+    public boolean isUsed() {
+        return isUsed;
+    }
+
+    public void setUsed(boolean used) {
+        isUsed = used;
     }
 }

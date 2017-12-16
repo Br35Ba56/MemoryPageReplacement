@@ -8,6 +8,8 @@ public abstract class MemoryAlgorithm {
     public List<Boolean> pageFaults;
     public List<String> victimFrames;
 
+    public abstract void getMemoryReference(MemoryReference memoryReference);
+
     public List<String> getVictimFrames() {
         return Collections.unmodifiableList(victimFrames);
     }
