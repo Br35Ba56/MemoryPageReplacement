@@ -20,6 +20,10 @@ public class MemoryReference {
         return isLoaded;
     }
 
+    public void isLoaded(boolean isLoaded) {
+        this.isLoaded = isLoaded;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
