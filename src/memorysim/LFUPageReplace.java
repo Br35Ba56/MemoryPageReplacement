@@ -3,12 +3,13 @@ package memorysim;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LRUPageReplace extends MemoryAlgorithm {
+public class LFUPageReplace extends MemoryAlgorithm {
     private ReferenceString referenceString;
     List<MemoryReference> physicalFrameList;
     private int indexOfReferenceString;
+    //Need to know ahead of time if memory will be used.
 
-    public LRUPageReplace() {
+    public LFUPageReplace() {
         physicalFrameList = new ArrayList<>();
         referenceString = new ReferenceString();
         victimFrames = new ArrayList<>();
@@ -18,7 +19,7 @@ public class LRUPageReplace extends MemoryAlgorithm {
         }
     }
 
-    public LRUPageReplace(ReferenceString referenceString) {
+    public LFUPageReplace(ReferenceString referenceString) {
         this.referenceString = referenceString;
         physicalFrameList = new ArrayList<>();
         victimFrames = new ArrayList<>();
@@ -30,10 +31,7 @@ public class LRUPageReplace extends MemoryAlgorithm {
 
     public void execute() {
         for (MemoryReference memoryReference : referenceString.getReferenceList()) {
-            System.out.println("\nMemory Reference " + memoryReference);
-            System.out.println(referenceString.getReferenceList().toString() + "\n");
             getMemoryReference(memoryReference);
-            indexOfReferenceString++;
             System.out.println("\nPhysical Frames: " +physicalFrameList.toString()
                     + "\nVictim Frames" + victimFrames.toString()
                     + "\nPage Faults: " + pageFaults.toString() + " \n");
@@ -42,34 +40,36 @@ public class LRUPageReplace extends MemoryAlgorithm {
 
     @Override
     public void getMemoryReference(MemoryReference memoryReference) {
-        memoryReference.setIndexUsed(indexOfReferenceString);
+        memoryReference.incrementReferenceCounter();
         if (!physicalFrameList.contains(memoryReference)) {
             pageFaults.add(true);
             if (physicalFrameList.size() < 4) {
                 physicalFrameList.add(memoryReference);
                 victimFrames.add(" ");
             } else {
-                int frameToReplace = physicalFrameList.indexOf(getVictimFrame());
-                victimFrames.add(physicalFrameList.remove(frameToReplace).toString());
-                physicalFrameList.add(frameToReplace, memoryReference);
+                int frameIndexToReplace = physicalFrameList.indexOf(getVictimFrame());
+                victimFrames.add(physicalFrameList.remove(frameIndexToReplace).toString());
+                physicalFrameList.add(frameIndexToReplace, memoryReference);
             }
+
         } else {
             victimFrames.add(" ");
             pageFaults.add(false);
         }
     }
 
-    //Finds the oldest reference Memory in the physical frame
     public MemoryReference getVictimFrame() {
-        int lastUsed = physicalFrameList.get(0).getIndexUsed();
-        int frameToReplace = 0;
-        for (int i = 0; i < physicalFrameList.size(); i++) {
-            if (physicalFrameList.get(i).getIndexUsed() < lastUsed) {
-                lastUsed = physicalFrameList.get(i).getIndexUsed();
-                frameToReplace = i;
+
+            int leastUsed = physicalFrameList.get(0).getReferenceCounter();
+            int frameToReplace = 0;
+            for (int i = 0; i < physicalFrameList.size(); i++) {
+                if (physicalFrameList.get(i).getReferenceCounter() < leastUsed) {
+                    leastUsed = physicalFrameList.get(i).getReferenceCounter();
+                    frameToReplace = i;
+                }
             }
-        }
-        System.out.println(physicalFrameList.get(frameToReplace));
-        return physicalFrameList.get(frameToReplace);
+            System.out.println(physicalFrameList.get(frameToReplace));
+            return physicalFrameList.get(frameToReplace);
+
     }
 }

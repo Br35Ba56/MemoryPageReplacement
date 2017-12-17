@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class MemoryReference {
     private String name;
-    private boolean isLoaded;
     private int indexUsed;
+    private int referenceCounter;
     private boolean isUsed = false;
 
     public MemoryReference(String name) {
@@ -14,14 +14,6 @@ public class MemoryReference {
 
     public String getName() {
         return name;
-    }
-
-    public boolean isLoaded() {
-        return isLoaded;
-    }
-
-    public void isLoaded(boolean isLoaded) {
-        this.isLoaded = isLoaded;
     }
 
     @Override
@@ -43,11 +35,13 @@ public class MemoryReference {
     }
 
     public int getIndexUsed() {
+
         return indexUsed;
     }
 
     public void setIndexUsed(int indexUsed) {
         this.indexUsed = indexUsed;
+        System.out.println(this + " index Used: " + indexUsed);
     }
 
     public boolean isUsed() {
@@ -56,5 +50,13 @@ public class MemoryReference {
 
     public void setUsed(boolean used) {
         isUsed = used;
+    }
+
+    public int getReferenceCounter() {
+        return referenceCounter;
+    }
+
+    public void incrementReferenceCounter() {
+        referenceCounter += 1;
     }
 }

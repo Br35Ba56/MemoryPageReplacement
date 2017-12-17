@@ -28,7 +28,7 @@ public class LRUPageReplaceTest {
         pageFaults = Arrays.asList(true, true, true, true, true, true, false,
                 true, true, true, true, true, true, true, true, true, true);
         victimFrames = Arrays.asList(" ", " ", " ", " ", "1", "7", " ", "5",
-                "4", "0", "1", "7", "3", "6", "5", "0", "4");
+                "0", "1", "4", "7", "3", "6", "5", "0", "4");
 
     }
 

@@ -32,6 +32,8 @@ public class OPTPageReplace extends MemoryAlgorithm {
 
     public void execute() {
         for (MemoryReference memoryReference : referenceString.getReferenceList()) {
+            System.out.println("\nMemory Reference " + memoryReference);
+            System.out.println(referenceString.getReferenceList().toString() + "\n");
             getMemoryReference(memoryReference);
             indexOfReferenceString++;
             System.out.println("\nPhysical Frames: " +physicalFrameList.toString()
@@ -65,9 +67,11 @@ public class OPTPageReplace extends MemoryAlgorithm {
 
     public MemoryReference getVictimFrame(int index) {
         List<MemoryReference> refList = referenceString.getReferenceList();
+        resetIsUsed();
         for (int i = 0; i < physicalFrameList.size(); i++) {
             for (int j = index; j < refList.size(); j++) {
                 //Get the next index where the memory reference is used in the reference string
+
                 if (physicalFrameList.get(i).equals(refList.get(j))) {
                     physicalFrameList.get(i).setIndexUsed(j);
                     physicalFrameList.get(i).setUsed(true);
@@ -88,5 +92,11 @@ public class OPTPageReplace extends MemoryAlgorithm {
             }
         }
         return physicalFrameList.get(frameToReplaceIndex);
+    }
+
+    public void resetIsUsed() {
+        for (MemoryReference memoryReference: physicalFrameList) {
+            memoryReference.setUsed(false);
+        }
     }
 }

@@ -12,7 +12,13 @@ public class ReferenceString {
     public ReferenceString(String... referenceArray) {
         referenceList = new ArrayList<>();
         for (String referenceName : referenceArray ) {
-            referenceList.add(new MemoryReference(referenceName));
+            if (!referenceList.contains(new MemoryReference(referenceName))) {
+                referenceList.add(new MemoryReference(referenceName));
+            } else {
+                MemoryReference memoryReference = referenceList.get(referenceList.indexOf(new MemoryReference(referenceName)));
+                referenceList.add(memoryReference);
+            }
+
         }
     }
 
@@ -28,3 +34,13 @@ public class ReferenceString {
         return Collections.unmodifiableList(referenceList);
     }
 }
+
+/*
+         if (!referenceList.contains(new MemoryReference(referenceName))) {
+                referenceList.add(new MemoryReference(referenceName));
+            } else {
+                MemoryReference memoryReference = referenceList.get(referenceList.indexOf(new MemoryReference(referenceName)));
+                referenceList.add(memoryReference);
+            }
+        }
+ */
